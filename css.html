@@ -4,29 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Course</title>
+    <title>webdevelopment</title>
+
+    <link rel="stylesheet" href="mystyles/styles.css">
+    <style>
+    h1{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: red;
+    }
+
+    nav{
+        text-align: center;
+    }
+
+    div.nav{
+        text-align: center;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li.l1{
+        float: left;
+        padding: 30px;
+    }
+
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: coral;
+    }
+
+    h4{
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: brown;
+    }
+</style>
+
 </head>
 <body>
-    <h1>Different CSS selection</h1>
-    <p>Inline Styles
-        With inline styles, style sheet information is applied directly to the HTML element. Instead of defining the style once, then applying the style against all instances of an element (say the <br>
-         tag), you add the style directly to the specific element you want the style to apply to.</p>
+    <header>
+        <h1>CASCADING STYLE SHEETS (CSS)!!</h1>
 
-     <p>Embedded Styles
-        You add all CSS information to one part of the document (usually the top). This allows you to style any element on the page from a single place. You do this by embedding the CSS information within style tags in the headof your document
+    </header><hr>
 
-     </p>
-     <p>External Styles
-External style sheets are the most common method of applying styles to a website. Most modern websites use an external stylesheet to apply site-wide styles to the whole website</p>
-<p>Import Styles
-You can also use the CSS @import rule to import an external style sheet.
+    <nav>
+        <ul>
+            <li><a href="css.html">CSS</a></li>
+            <li><a href="whyweb.html">WEB</a></li>
+            <li><a href="mybio.html">PROFILE</a></li>
+            <li><a href="index.html">HOME</a></li>
+        </ul>
 
-To do this, use the style tag.</p>
-<ul class="nav-list d-flex">
-    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-    <li class="nav-item"><a href="course.html" class="nav-link">Course</a></li>
-    <li class="nav-item"><a href="css.html" class="nav-link">CSS Works</a></li>
-    <li class="nav-item"><a href="basicSkills.html" class="nav-link">My Basic Skills</a></li>
-</ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>WHAT IS CSS?</h2>
+            <p>
+                Css stands for Cascading Style Sheets. <em>But what is it exactly!?</em></p>
+                <p>
+                    Well, this is special or unique markup language that is used in web development in combination with hypertext markup language to style and design the presentation of a web page or many of them. There are mainly three types of css, namely;
+                </p>
+                <ol>
+                    <li>Internal css: This works mainly within the particular web page to be styled. It is used to style the different components of the web page within the same web page.</li>
+                    <li>Inline css: This works like the internal css, but the difference is that for the inline css, we style a particular element at a go but not all the related elements within the web page. Simply we style an element using its corresponding attributes.</li>
+                    <li>External css: An external css is a separate and independent css file that is used to style the presentation and appearance of a web page as well as different same web pages to be styled in the same format. This external css file though, can be accessed by creating a link to it in the web page to be styled.</li>
+                </ol>
+        </article>
+
+        <article>
+            <h2>
+                Examples on how to insert css
+            </h2>
+
+            <ol>
+                <li>Internal css: This is used in the head tag<br>
+                    <pre>
+                        <head>
+
+                        </head>
+                    </pre>
+                </li>
+                <li>Inline css: This used as an attribute of an element.<br>
+                
+                </li>
+                <li>External css: This is used in a different css file created and linked from the page to be styled.<br>
+                
+                </li>
+            </ol>
+
+        </article>
+
+
+        <article>
+            <h2>CSS SELECTORS.</h2>
+            <p>
+                These are used in css to identify a particular element to be styled. Here are a few of them;
+            </p>
+
+            <ol>
+                <li>Class selectors: These select or identify a number of elements to be styled at once.</li>
+                <li>Id selectors: These identify only a single unique element per web page.</li>
+                <li>Universal selectors: These style a particular element to be applied to all the web pages.</li>
+            </ol>
+        </article>
+
+    </section>
+
+    <footer>
+
+    </footer>
 </body>
 </html>

@@ -1,2 +1,0 @@
-# luzinda-moses
- luzinda Moses
